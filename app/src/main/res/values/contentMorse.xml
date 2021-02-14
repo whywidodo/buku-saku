@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="contentMorse">
+        Semboyan morse ini dipakai di seluruh dunia. Penemu kode ini bernama Morse dari Amerika. 
+        Untuk membedakan titik dan strip, maka peluit ditiup pendek dan panjang dengan perbandingan 1:3 
+        ( Satu untuk titik, tiga untuk strip ).
+        \nSelain memakai peluit, dapat juga dengan radio, pesawat, telegrap, asap, lampu, baterai, dan sebagainya.
+    </string>
+</resources>

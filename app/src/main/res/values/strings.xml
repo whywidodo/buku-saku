@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Buku Saku</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">Hello world!</string>
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_id">ca-app-pub-8922619694669368/3713752731</string>
+    <string name="banner_ad_unit_id_two">ca-app-pub-8922619694669368/7729993132</string>
+
+    <string name="dialog_title">Buku Saku</string>
+    <string name="dialog_text">Apakah Anda yakin akan keluar dari aplikasi ini?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+
+    <string name="janji">Janji Pramuka</string>
+    <string name="sandi">Sandi Pramuka</string>
+    <string name="semaphore">Semaphore</string>
+    <string name="hari">Hari Peringatan Nasional</string>
+    <string name="hymne">Hymne Pramuka</string>
+    <string name="keluar">Keluar</string>
+
+</resources>

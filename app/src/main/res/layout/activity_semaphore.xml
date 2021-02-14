@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:overScrollMode="never" >
+
+        <LinearLayout
+            android:id="@+id/linear4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/imageSemaphore"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/app_name"
+                android:src="@mipmap/semaphore" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contentSemaphore"
+                android:textColor="@color/textdialog" />
+
+            <LinearLayout
+                android:id="@+id/semaphore1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageSemaphoreA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_a1"
+                    android:text="A"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_b1"
+                    android:text="B"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_c1"
+                    android:text="C"
+                    android:textSize="10pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/semaphore2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageSemaphoreD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_d1"
+                    android:text="D"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_e1"
+                    android:text="E"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_f1"
+                    android:text="F"
+                    android:textSize="10pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/semaphore3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageSemaphoreG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_g1"
+                    android:text="G"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_h1"
+                    android:text="H"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_i1"
+                    android:text="I"
+                    android:textSize="10pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/semaphore4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageSemaphoreJ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_j1"
+                    android:text="J"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_k1"
+                    android:text="K"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_l1"
+                    android:text="L"
+                    android:textSize="10pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/semaphore5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageSemaphoreM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_m1"
+                    android:text="M"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_n1"
+                    android:text="N"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_o1"
+                    android:text="O"
+                    android:textSize="10pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/semaphore6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageSemaphoreP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_p1"
+                    android:text="P"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreQ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_q1"
+                    android:text="Q"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_r1"
+                    android:text="R"
+                    android:textSize="10pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/semaphore7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageSemaphoreS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_s1"
+                    android:text="S"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_t1"
+                    android:text="T"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_u1"
+                    android:text="U"
+                    android:textSize="10pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/semaphore8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageSemaphoreV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_v1"
+                    android:text="V"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreW"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_w1"
+                    android:text="W"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreX"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_x1"
+                    android:text="X"
+                    android:textSize="10pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/semaphore9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imageSemaphoreY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_y1"
+                    android:text="Y"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/imageSemaphoreZ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:contentDescription="@string/app_name"
+                    android:drawableRight="@mipmap/semaphore_z1"
+                    android:text="Z"
+                    android:textSize="10pt" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:onClick="c_share"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/share_btn" />
+
+    <!-- view for AdMob Banner Ad -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

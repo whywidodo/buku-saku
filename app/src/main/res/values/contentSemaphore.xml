@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="contentSemaphore">
+        Kode semaphore terdiri dari beberapa sikap tangan kiri dan kanan. 
+        Tiap-tiap bendera harus dipegang sedemikian, sehingga tongkatnya merupakan sambungan tangan. 
+        Letak telunjuk di atas tongkat itu betul-betul terpegang lurus.\n
+        Segala pergerakan dilakukan dengan kedua bahu, sementara itu kedua tangan tetap lurus.\n
+    </string>
+</resources>

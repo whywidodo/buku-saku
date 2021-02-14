@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="judulHymne">Hymne Pramuka</string>
+    <string name="lirik_Hymne">
+        \nKami
+        \nPramuka Indonesia
+        \nManusia Pancasila
+        \nSatya Ku Kudarmakan
+        \nDarma Ku Kubaktikan
+        \nAgar Jaya Indonesia
+        \nIndonesia
+        \nTanah Airku
+        \nKami Jadi Pandumu
+    </string>
+    
+</resources>

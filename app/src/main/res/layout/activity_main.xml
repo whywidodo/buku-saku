@@ -1,0 +1,141 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="labs.nusantara.bukusaku.MainActivity">
+
+    <include layout="@layout/activity_background"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_janji"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/janji"
+            android:onClick="c_janji"
+            android:textSize="8pt"
+            android:textColor="@android:color/white"
+            android:theme="@style/MyButton"/>
+
+        <Button
+            android:id="@+id/btn_sandi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/sandi"
+            android:onClick="c_sandi"
+            android:textSize="8pt"
+            android:textColor="@android:color/white"
+            android:theme="@style/MyButton"/>
+
+        <Button
+            android:id="@+id/btn_semaphore"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/semaphore"
+            android:onClick="c_semaphore"
+            android:textSize="8pt"
+            android:textColor="@android:color/white"
+            android:theme="@style/MyButton"/>
+
+        <Button
+            android:id="@+id/btn_hari"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/hari"
+            android:onClick="c_hari"
+            android:textSize="8pt"
+            android:textColor="@android:color/white"
+            android:theme="@style/MyButton"/>
+
+        <Button
+            android:id="@+id/btn_hymne"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/hymne"
+            android:onClick="c_hymne"
+            android:textSize="8pt"
+            android:textColor="@android:color/white"
+            android:theme="@style/MyButton"/>
+
+        <Button
+            android:id="@+id/btn_keluar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/keluar"
+            android:onClick="c_keluar"
+            android:textSize="8pt"
+            android:textColor="@android:color/white"
+            android:theme="@style/MyButton"/>
+    </LinearLayout>
+
+    <!-- view for AdMob Banner Ad -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:onClick="c_share"
+        android:src="@mipmap/share_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

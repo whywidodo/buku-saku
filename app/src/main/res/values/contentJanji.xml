@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="judulJanji">
+        Janji Pramuka dinamakan Trisatya Pramuka, dan berbunyi sebagai berikut :
+    </string>
+    <string name="judulTrisatya">Trisatya\n</string>
+    <string name="contentTrisatya">
+    	\nDemi kehormatanku aku berjanji akan berjanji akan bersungguh-sungguh :
+    	\n- Menjalankan kewajibanku terhadap Tuhan dan Negara Kesatuan Republik Indonesia dan mengamalkan Pancasila.
+    	\n- Menolong sesama hidup dan ikut serta membangun masyarakat.
+    	\n- Menepati Dasa dharma.
+    </string>
+    <string name="judulDashadarma">\n\nDasaDharma</string>
+    <string name="contentDasadharma">
+        \nPramuka itu:
+    	\n1. Takwa kepada Tuhan Yang Maha Esa.
+    	\n2. Cinta alam dan kasih sayang sesama manusia.
+    	\n3. Patriot yang sopan dan kesatria.
+    	\n4. Patuh dan suka bermusyawarah.
+    	\n5. Rela menolong dan tabah.
+    </string>
+    
+</resources>
